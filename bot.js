@@ -5,7 +5,7 @@ function createBot() {
         host: 'garzanenes.aternos.me:44823', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 44823,                // Puerto predeterminado de Minecraft
         username: 'Labubu',    // Nombre genérico del bot/NPC dentro del juego
-        version: 1.21.1              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: '1.21.1'              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
